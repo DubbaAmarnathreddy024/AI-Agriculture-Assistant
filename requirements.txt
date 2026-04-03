@@ -6,7 +6,6 @@ numpy
 scikit-learn
 xgboost
 joblib
-tensorflow
 opencv-python
 pillow
 python-multipart
@@ -17,5 +16,4 @@ passlib[bcrypt]
 slowapi
 requests
 python-dotenv
-torch
-torchvision
+streamlit
