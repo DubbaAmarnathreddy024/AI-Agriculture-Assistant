@@ -17,3 +17,4 @@ slowapi
 requests
 python-dotenv
 streamlit
+PyJWT
