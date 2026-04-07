@@ -29,6 +29,7 @@ from pydantic import BaseModel
 import numpy as np
 import joblib
 
+
 artifacts = joblib.load("models/yield_model.pkl")
 
 model = artifacts["model"]

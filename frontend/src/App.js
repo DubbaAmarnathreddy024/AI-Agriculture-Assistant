@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
+
 // ─── Global Styles ────────────────────────────────────────────────────────────
 const GLOBAL_STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
@@ -396,8 +397,6 @@ const NAV_ITEMS = [
   { key:"myFarm",    emoji:"📊", color:"#f59e0b" },
   { key:"market",    emoji:"💰", color:"#10b981" },
   { key:"soil",      emoji:"🧪", color:"#a16207" },
-  { key:"irrigation",emoji:"💧", color:"#38bdf8" },
-  { key:"fertilizer",emoji:"🌿", color:"#4ade80" },
   { key:"schemes",   emoji:"🏛️", color:"#6366f1" },
   { key:"community", emoji:"🤝", color:"#ec4899" },
   { key:"equipment", emoji:"🚜", color:"#f97316" },
